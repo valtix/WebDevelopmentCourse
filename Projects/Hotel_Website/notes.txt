@@ -1,0 +1,16 @@
+
+body
+    header
+        navbar
+            container
+        showcase 
+            container
+                showcase-content
+
+    home-info
+            info-image
+            info-content
+
+    features
+
+    main-footer

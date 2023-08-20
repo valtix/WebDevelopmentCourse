@@ -1,0 +1,131 @@
+/* #region Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+/* #endregion */
+
+
+/* #region Utility Classes */
+  .primary-text {
+    color: yellow;
+  }
+  
+  .clr {
+    clear: both;
+  }
+
+  li {
+  list-style: none;
+  color: whitesmoke;
+  }
+
+  a {
+  text-decoration: none;
+  }
+/* #endregion */
+
+
+/* #region HEADER */
+  header {
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+  background: black;
+  }
+
+  .navbar {
+    max-width: 1300px;
+    height: 100px;
+    margin: 0 auto; /* this will center the content within the max-width */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .nav-ul li a {
+    color: whitesmoke;
+  } 
+/* #endregion */
+
+
+/* #region Main Content Home */
+  main {
+    background-image: url("../img/web_idea_template3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+  
+    color: #ffffff;
+    height: 100vh;
+  }
+
+  .main-content {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .main-content h5 {
+    padding-top: 140px;
+    padding-bottom: 15px;
+  }
+  
+  .main-content h1 {
+    font-size: 80px;
+    padding-bottom: 15px;
+  }
+  
+  .main-content p {
+    padding-bottom: 45px;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background: none;
+    padding: 15px;
+    border: 1px solid yellow;
+    cursor: pointer;
+    text-decoration: none;
+  }
+/* #endregion */
+
+
+/* #region Footer */
+  footer {
+    background: black;
+  }
+
+  .footer-container {
+    max-width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .fa-brands {
+    color: white;
+  }
+
+  .fa-solid {
+    color: white;
+  }
+/* #endregion */

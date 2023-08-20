@@ -1,0 +1,21 @@
+[Ctrl + /] = comment the line the cursor is on
+[! + Enter] = generates html basic structure
+
+[Ctrl + Shift + p] = opens command palette
+    type Developer: Reload Window every time you install a new extension
+
+[Ctrl + Enter] = Creates a new line under the current position of the cursor
+
+[lorem + Enter] = Plugs in dummy text. Note, you need to type lorem!
+
+[lorem10 + Enter] = Plugs in dummy text for 10 words only
+
+[Shift + Ctrl + Down Arrow] = Copies the line where cursor is down
+
+[Alt + Up/Down Arrow (Windows) / Ctr + Super (Linux)] = Moves the line up or down
+
+[tag keyword * #] = will give you X multiples of the tag. i.e., li*4
+
+[highlight a word and then click Ctr + d] = it will highlight the next exact word like it. Click escape to go back to a normal cursor
+
+[# + any_word] = generate the syntax for a div with an id equaling to any_word

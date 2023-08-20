@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    When to use id's vs classes? You want your id's to be unique and your classes to be useable many times. For example, take a look at the id's for about and contact. You don't want re-use those ideas throughout your HTML code. However, each of those id's share the same class (i.e., "card"). 
+
+    And you can apply a certain style (i.e., look) to the classes so that you can re-use it throughout your code.
+
+    Difference between a Span an a DIV? A div is a blockline tag while a span is line. For example, sometimes you want to apply a certain sytle embedded within a paragraph, you want to use a span rather than a div so as to not break the flow of your paragraph (i.e, having what you enclosed in a div in its own line).
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, Span, ID and Class</title>
+
+    <style>
+        .card{
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-header" class="card">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+
+    <ul id="main-nav" class="card">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum, <span class="enhance">dolor sit amet</span> consectetur adipisicing elit. Earum atque sequi ut eveniet labore perspiciatis? </p>
+    </div>
+
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address: 50 Main St., Bost MA</li>
+            <li>Phone: (5555)123-4567</li>
+            <li>Email: me@somethingcool.com</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <p>Copyright 2022</p>
+    </div>
+</body>
+
+</html>
